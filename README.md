@@ -1,17 +1,23 @@
-# Json de pares minimos comunes en español
+# Letras Fugitivas
 
-## Paso 1: diccionario.html
-- Se agarran muchos txt / json con palabras en español y se unen para crear un diccionario con palabras comunes.
-(Resultado: dicPaso1.json)
+Este proyecto es un juego móvil en el que los usuarios deben encontrar la letra faltante en cinco palabras, siendo la misma letra para todas ellas. El juego se basa en un conjunto de pares mínimos comunes en español. Los pares minimos son parejas de palabras que tienen una sola letra diferente, como por ejemplo, **P**elon y **T**elon.
 
-## Paso 2: filtrarPalabrasInventadas.html
-- Se compara el diccionario anteriormente creado con el diccionario de la RAE y se eliminan los terminos que no existen.
-(Resultado: dicPaso2.json)
+## Paso 1: Crear el diccionario
 
-## Paso 3: eliminarElementosDuplicados.html
-- Se eliminan los elementos duplicados del diccionario:
-(Resultado: dicModoClasico.json)
+En este punto, hacemos un mezcla de palabras en español provenientes de archivos de texto y JSON. Básicamente, creamos un diccionario gigante que abarca términos comunes en español.
 
-## Paso 4: crearParesMinimos.html
-- Se comparan todos los elementos en busca de pares minimos (pareja de palabras que tienen solo un sonido distinto, ej: **P**elon, **T**elon)
-(Resultado: paresMinimos.json)
+## Paso 2: Sacar palabras que no existan
+
+No queremos que nuestro juego se llene de palabras que no existen, así que comparamos nuestro diccionario con el de la RAE y eliminamos lo que no esta.
+
+## Paso 3: Eliminar Duplicados
+
+Nos deshacemos de cualquier duplicado en el diccionario.
+
+## Paso 4: Crear pares minimos
+
+Comparamos cada palabra en busca de pares mínimos.
+
+## Uso del JSON en el juego
+
+Para crear el juego final, elegimos una letra aleatoriamente y elegimos 5 pares minimos que se puedan resolver con esa letra.
