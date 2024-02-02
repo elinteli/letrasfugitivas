@@ -4,7 +4,7 @@ Este proyecto es un juego móvil en el que los usuarios deben encontrar la letra
 
 ## Paso 1: Crear el diccionario
 
-En este punto, hacemos un mezcla de palabras en español provenientes de archivos de texto y JSON. Básicamente, creamos un diccionario gigante que abarca términos comunes en español.
+Hacemos un mezcla de palabras en español provenientes de archivos de texto, JSON y otros de internet (Ejemplo: 1000 palabras mas comunes en español). Básicamente, creamos un diccionario gigante que abarca términos comunes en español.
 
 ## Paso 2: Sacar palabras que no existan
 
