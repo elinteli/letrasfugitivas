@@ -20,4 +20,4 @@ Comparamos cada palabra en busca de pares mínimos.
 
 ## Uso del JSON en el juego
 
-Para crear el juego final, elegimos una letra aleatoriamente y elegimos 5 pares minimos que se puedan resolver con esa letra.
+Para crear el juego final, elegimos una letra aleatoriamente y elegimos 5 pares minimos que se puedan resolver con esa letra, luego el jugador va a tener que adivinar cual es la letra que completa las 5 palabras
